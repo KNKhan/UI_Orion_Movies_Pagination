@@ -1,0 +1,17 @@
+.search {
+    margin: 0 auto;
+    display: table;
+    margin-top: -50px;
+}
+input[type='text'] {
+    width: 250px;
+    padding: 8px 10px;
+    border: solid 1px #ccc;
+    outline: 0;
+}
+
+@media screen and (max-width: 640px) {
+    .search {
+        margin-top: 30px;
+    }
+}

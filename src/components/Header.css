@@ -1,0 +1,19 @@
+header > div {    
+    background:#79b5d2;
+    padding: 20px;
+}
+header h2 {
+    margin: 0;
+    display: inline-block;
+}
+header .user {
+    float: right;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 640px) {
+    header .user {
+        float: none;
+        margin-top: 15px;
+    }
+}

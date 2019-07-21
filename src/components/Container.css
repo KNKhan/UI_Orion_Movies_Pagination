@@ -1,0 +1,17 @@
+section header {
+    width: 100%;
+}
+section.content {
+	padding: 20px;
+}
+.searchinfo {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 640px) {
+    .searchinfo {
+        margin-top: 0;
+    }
+}
